@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ideas para el Proyecto Intermodular · DAM</title>
+<style>
+  :root{
+    --bg:#0e1116; --bg2:#161b22; --card:#1b2129; --card2:#222a34;
+    --line:#2b3441; --txt:#e6edf3; --txt2:#9aa7b6; --accent:#4cc2ff;
+    --accent2:#7ee787; --warn:#f2cc60; --strong:#7ee787; --opt:#f2cc60;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1200px 600px at 20% -10%,#182430 0%,var(--bg) 55%);
+    color:var(--txt);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--accent)}
+  .wrap{max-width:1180px;margin:0 auto;padding:28px 20px 80px}
+  header h1{margin:0 0 6px;font-size:26px;letter-spacing:-.3px}
+  header p{margin:0;color:var(--txt2);font-size:14px}
+  .tabs{display:flex;gap:8px;margin:22px 0 16px;flex-wrap:wrap}
+  .tab{background:var(--card);border:1px solid var(--line);color:var(--txt2);padding:9px 16px;
+    border-radius:999px;cursor:pointer;font-size:14px}
+  .tab.active{background:var(--accent);color:#06121c;border-color:transparent;font-weight:600}
+  .panel{display:none}.panel.active{display:block}
+  .controls{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:20px}
+  .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+  .row + .row{margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+  .lbl{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--txt2);margin-bottom:7px;display:block}
+  input[type=search],select{background:var(--bg2);border:1px solid var(--line);color:var(--txt);
+    padding:9px 12px;border-radius:9px;font-size:14px;outline:none}
+  input[type=search]{flex:1;min-width:220px}
+  input[type=search]:focus,select:focus{border-color:var(--accent)}
+  .chips{display:flex;gap:8px;flex-wrap:wrap}
+  .chip{background:var(--bg2);border:1px solid var(--line);color:var(--txt2);padding:6px 12px;
+    border-radius:999px;cursor:pointer;font-size:13px;user-select:none;transition:.15s}
+  .chip:hover{border-color:var(--accent);color:var(--txt)}
+  .chip.on{background:rgba(76,194,255,.16);border-color:var(--accent);color:var(--accent);font-weight:600}
+  .chip small{opacity:.65;margin-left:5px}
+  .count{color:var(--txt2);font-size:13px;margin-left:auto}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;display:flex;flex-direction:column}
+  .card h3{margin:0 0 4px;font-size:17px;line-height:1.3}
+  .card .emoji{font-size:24px;margin-right:6px}
+  .card .tag{color:var(--txt2);font-style:italic;font-size:14px;margin:0 0 12px}
+  .meta{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--txt2);margin-bottom:12px}
+  .dots{letter-spacing:2px;color:var(--warn)}
+  .badge{background:rgba(126,231,135,.13);color:var(--accent2);border:1px solid rgba(126,231,135,.3);
+    padding:2px 9px;border-radius:999px;font-size:12px}
+  .desc{color:#c9d4e0;font-size:14px;margin:0 0 12px}
+  .taglist{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+  .taglist span{background:var(--bg2);border:1px solid var(--line);color:var(--txt2);
+    font-size:11.5px;padding:3px 8px;border-radius:6px}
+  .cov{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:14px}
+  .cov i{font-style:normal;font-size:10.5px;padding:3px 7px;border-radius:6px;border:1px solid}
+  .cov i.s{color:var(--strong);border-color:rgba(126,231,135,.35);background:rgba(126,231,135,.1)}
+  .cov i.o{color:var(--opt);border-color:rgba(242,204,96,.3);background:rgba(242,204,96,.08)}
+  details{border-top:1px solid var(--line);padding-top:12px;margin-top:auto}
+  details summary{cursor:pointer;color:var(--accent);font-size:14px;font-weight:600;list-style:none}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"▸ ";display:inline-block;transition:.2s}
+  details[open] summary::before{transform:rotate(90deg)}
+  details h4{margin:16px 0 7px;font-size:13px;text-transform:uppercase;letter-spacing:.07em;color:var(--txt2)}
+  details ul{margin:0 0 6px;padding-left:18px;font-size:13.5px;color:#c9d4e0}
+  details li{margin-bottom:5px}
+  table.kv{width:100%;border-collapse:collapse;font-size:13px}
+  table.kv td{padding:5px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  table.kv td:first-child{color:var(--txt2);width:38%;white-space:nowrap}
+  .fases td:first-child{font-weight:600;color:var(--accent)}
+  table.matrix{width:100%;border-collapse:collapse;font-size:13px;background:var(--card);
+    border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  table.matrix th,table.matrix td{padding:9px 8px;text-align:center;border-bottom:1px solid var(--line)}
+  table.matrix th{background:var(--bg2);font-size:11.5px;color:var(--txt2);letter-spacing:.04em}
+  table.matrix td.n{text-align:left;font-weight:600;padding-left:12px}
+  table.matrix tr:hover td{background:rgba(76,194,255,.05)}
+  .s{color:var(--strong);font-weight:700}
+  .o{color:var(--opt)}
+  .empty{color:var(--txt2);text-align:center;padding:40px 0}
+  .err{background:#3a1d1d;border:1px solid #7d3a3a;padding:16px;border-radius:var(--radius);color:#ffc9c9}
+  footer{margin-top:40px;color:var(--txt2);font-size:12.5px;text-align:center}
+  .reco{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);
+    border-radius:10px;padding:14px 16px;margin-bottom:12px}
+  .reco b{color:var(--accent)}
+  .reco p{margin:6px 0 0;font-size:14px;color:#c9d4e0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>🎓 Ideas para el Proyecto Intermodular</h1>
+  <p id="sub">Cargando…</p>
+</header>
+
+<div class="tabs">
+  <button class="tab active" data-tab="cards">🗂 Ideas</button>
+  <button class="tab" data-tab="guia">🎮 Guía para juegos</button>
+  <button class="tab" data-tab="matrix">📊 Matriz de cobertura</button>
+  <button class="tab" data-tab="reco">🎯 Recomendaciones</button>
+  <button class="tab" data-tab="ayuda">📝 Memoria y checklist</button>
+</div>
+
+<section class="panel active" id="p-cards">
+  <div class="controls">
+    <div class="row">
+      <input type="search" id="q" placeholder="Buscar por nombre, tecnología, tag…">
+      <select id="dif">
+        <option value="0">Cualquier dificultad</option>
+        <option value="5">Solo ★★★★★</option>
+        <option value="4">★★★★ o menos</option>
+        <option value="3">★★★ o menos</option>
+      </select>
+      <select id="ord">
+        <option value="cov">Orden: más cobertura</option>
+        <option value="dif">Orden: más fácil primero</option>
+        <option value="nom">Orden: alfabético</option>
+      </select>
+    </div>
+    <div class="row">
+      <div style="flex:1 1 100%">
+        <span class="lbl">Tipo de proyecto</span>
+        <div class="chips" id="tipos">
+          <span class="chip on" data-t="todos">Todas</span>
+          <span class="chip" data-t="juego">🎮 Solo juegos</span>
+          <span class="chip" data-t="app">💼 Otras ideas</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div style="flex:1 1 100%">
+        <span class="lbl">Filtrar por módulo / RA (la idea debe cubrirlo)</span>
+        <div class="chips" id="chips"></div>
+      </div>
+    </div>
+    <div class="row"><span class="count" id="count"></span></div>
+  </div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section class="panel" id="p-guia">
+  <h2 style="font-size:18px;margin-top:0">Cómo se defiende un juego en el intermodular</h2>
+  <p style="color:var(--txt2);margin-top:-6px">Un juego es un proyecto excelente… siempre que no se quede en “un canvas con sprites”.</p>
+  <ul id="notas" style="color:#c9d4e0"></ul>
+  <h2 style="font-size:18px;margin-top:28px">Stack orientativo para juegos web</h2>
+  <table class="kv" id="stackj" style="background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px"></table>
+</section>
+
+<section class="panel" id="p-matrix">
+  <div id="matrix"></div>
+  <p style="color:var(--txt2);font-size:13px">✔ = cubre el RA con peso · ~ = opcional o secundario · – = no aplica</p>
+</section>
+
+<section class="panel" id="p-reco"><div id="reco"></div></section>
+
+<section class="panel" id="p-ayuda">
+  <h2 style="font-size:18px">Estructura propuesta de la memoria</h2>
+  <ol id="memoria" style="color:#c9d4e0"></ol>
+  <h2 style="font-size:18px;margin-top:28px">Checklist antes de decidirte</h2>
+  <ul id="check" style="color:#c9d4e0"></ul>
+  <h2 style="font-size:18px;margin-top:28px">Trampas clásicas</h2>
+  <ul id="trampas" style="color:#c9d4e0"></ul>
+  <h2 style="font-size:18px;margin-top:28px">Ideas rápidas (plan B)</h2>
+  <ul id="rapidas" style="color:#c9d4e0"></ul>
+</section>
+
+<footer>Datos en <code>ideas.json</code> · documento completo en <code>ideas-proyecto-intermodular.md</code></footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+let DATA = null, activos = new Set(), tipo = 'todos';
+
+function nivel(t){ return t && t.trim().toLowerCase().startsWith('opcional') ? 'o' : 's'; }
+function estrellas(n){ return '●'.repeat(n) + '○'.repeat(5-n); }
+function nFuertes(i){ return Object.values(i.cobertura).filter(v => v && nivel(v)==='s').length; }
+
+function render(){
+  const q = $('#q').value.toLowerCase().trim();
+  const maxDif = +$('#dif').value;
+
+  let lista = DATA.ideas.filter(i => {
+    if (maxDif && i.dificultad > maxDif) return false;
+    if (tipo !== 'todos' && (i.categoria || 'app') !== tipo) return false;
+    for (const m of activos) if (!i.cobertura[m]) return false;
+    if (!q) return true;
+    const haystack = [i.nombre, i.eslogan, i.descripcion, i.tags.join(' '),
+                      Object.values(i.stack).join(' '),
+                      i.arquitectura.join(' '),
+                      Object.values(i.cobertura).join(' ')].join(' ').toLowerCase();
+    return haystack.includes(q);
+  });
+
+  const ord = $('#ord').value;
+  lista.sort((a,b) => ord === 'cov' ? nFuertes(b)-nFuertes(a)
+                    : ord === 'dif' ? a.dificultad-b.dificultad
+                    : a.nombre.localeCompare(b.nombre));
+
+  $('#count').textContent = `${lista.length} de ${DATA.ideas.length} ideas`;
+  $('#grid').innerHTML = lista.length ? lista.map(card).join('') : '<p class="empty">Ninguna idea cumple esos filtros.</p>';
+}
+
+function card(i){
+  const cov = DATA.modulos.filter(m => i.cobertura[m.id]).map(m =>
+    `<i class="${nivel(i.cobertura[m.id])}" title="${m.nombre}">${m.codigo}</i>`).join('');
+  const stack = Object.entries(i.stack).map(([k,v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join('');
+  const cob = DATA.modulos.map(m => i.cobertura[m.id]
+      ? `<tr><td>${nivel(i.cobertura[m.id])==='s'?'✔':'~'} <b>${m.nombre}</b></td><td>${i.cobertura[m.id]}</td></tr>` : '').join('');
+  const fases = Object.entries(i.alcance).map(([f,items]) =>
+      `<tr><td>${f}</td><td>${items.join(' · ')}</td></tr>`).join('');
+  return `<article class="card">
+    <h3><span class="emoji">${i.emoji}</span>${i.nombre}</h3>
+    <p class="tag">${i.eslogan}</p>
+    <div class="meta">
+      <span class="dots" title="Dificultad">${estrellas(i.dificultad)} ${i.dificultad}/5</span>
+      <span>⏱ ${i.tiempo}</span>
+      <span class="badge">${nFuertes(i)}/${DATA.modulos.length} bloques</span>
+      <span>${i.categoria === 'juego' ? '🎮 Juego' : '💼 App'}</span>
+    </div>
+    <p class="desc">${i.descripcion}</p>
+    <div class="taglist">${i.tags.map(t=>`<span>${t}</span>`).join('')}</div>
+    <div class="cov">${cov}</div>
+    <details>
+      <summary>Ver ficha completa</summary>
+      <h4>Arquitectura</h4><ul>${i.arquitectura.map(a=>`<li>${a}</li>`).join('')}</ul>
+      <h4>Stack sugerido</h4><table class="kv">${stack}</table>
+      <h4>Cómo cubre cada RA</h4><table class="kv">${cob}</table>
+      <h4>Por qué mola</h4><ul>${i.mola.map(a=>`<li>${a}</li>`).join('')}</ul>
+      <h4>Riesgos</h4><ul>${i.riesgos.map(a=>`<li>${a}</li>`).join('')}</ul>
+      <h4>Alcance por fases</h4><table class="kv fases">${fases}</table>
+    </details>
+  </article>`;
+}
+
+function pintarMatrix(){
+  const head = DATA.modulos.map(m => `<th title="${m.nombre}">${m.codigo}</th>`).join('');
+  const body = DATA.ideas.map(i => `<tr><td class="n">${i.emoji} ${i.nombre.split('—')[0].trim()}</td>` +
+    DATA.modulos.map(m => {
+      const t = i.cobertura[m.id];
+      if (!t) return '<td>–</td>';
+      return `<td class="${nivel(t)}" title="${m.nombre}: ${t.replace(/"/g,'&quot;')}">${nivel(t)==='s'?'✔':'~'}</td>`;
+    }).join('') + `<td><b>${nFuertes(i)}</b></td></tr>`).join('');
+  $('#matrix').innerHTML = `<table class="matrix"><thead><tr><th>Idea</th>${head}<th>Total</th></tr></thead><tbody>${body}</tbody></table>`;
+}
+
+function pintarResto(){
+  const nom = Object.fromEntries(DATA.ideas.map(i=>[i.id,i.nombre]));
+  $('#reco').innerHTML = DATA.recomendaciones.map(r =>
+    `<div class="reco"><b>${r.perfil}</b> → ${nom[r.pick]}<p>${r.por_que}</p></div>`).join('');
+  $('#memoria').innerHTML = DATA.estructura_memoria.map(x=>`<li>${x}</li>`).join('');
+  $('#check').innerHTML = DATA.checklist_eleccion.map(x=>`<li>${x}</li>`).join('');
+  $('#trampas').innerHTML = DATA.trampas.map(x=>`<li>${x}</li>`).join('');
+  const byId = Object.fromEntries(DATA.modulos.map(m=>[m.id,m.codigo]));
+  $('#rapidas').innerHTML = DATA.ideas_rapidas.map(r =>
+    `<li><b>${r.nombre}</b> — ${r.detalle} <span style="color:var(--txt2)">(${r.cubre.map(c=>byId[c]).join(', ')})</span></li>`).join('');
+}
+
+function pintarChips(){
+  $('#chips').innerHTML = DATA.modulos.map(m => {
+    const n = DATA.ideas.filter(i => i.cobertura[m.id]).length;
+    return `<span class="chip" data-m="${m.id}" title="${m.nombre}">${m.codigo} · ${m.nombre.split(' ')[0]}<small>${n}</small></span>`;
+  }).join('');
+  document.querySelectorAll('#chips .chip').forEach(c => c.addEventListener('click', () => {
+    const id = c.dataset.m;
+    activos.has(id) ? activos.delete(id) : activos.add(id);
+    c.classList.toggle('on'); render();
+  }));
+  document.querySelectorAll('#tipos .chip').forEach(c => c.addEventListener('click', () => {
+    tipo = c.dataset.t;
+    document.querySelectorAll('#tipos .chip').forEach(x => x.classList.remove('on'));
+    c.classList.add('on'); render();
+  }));
+}
+
+function pintarGuia(){
+  $('#notas').innerHTML = DATA.notas_juegos.map(x => `<li>${x}</li>`).join('');
+  $('#stackj').innerHTML = Object.entries(DATA.stack_juegos)
+    .map(([k,v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join('');
+}
+
+document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => {
+  document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(x => x.classList.remove('active'));
+  t.classList.add('active'); $('#p-' + t.dataset.tab).classList.add('active');
+}));
+['#q','#dif','#ord'].forEach(s => $(s).addEventListener('input', render));
+
+fetch('ideas.json').then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+  DATA = d;
+  $('#sub').textContent = `${d.meta.ciclo} · ${d.meta.curso} · ${d.ideas.length} ideas con cobertura de ${d.modulos.length} bloques de RA`;
+  pintarChips(); pintarMatrix(); pintarResto(); pintarGuia(); render();
+}).catch(e => {
+  $('#sub').textContent = 'No se pudo cargar ideas.json';
+  $('#grid').innerHTML = `<p class="err">No puedo leer <code>ideas.json</code> (${e.message}). Si has abierto este archivo directamente con doble clic, sírvelo con un servidor local:<br><br><code>python3 -m http.server 8000</code><br><br>y abre <code>http://localhost:8000/visor.html</code></p>`;
+});
+</script>
+</body>
+</html>
