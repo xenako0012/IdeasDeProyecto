@@ -6,22 +6,24 @@
 
 ## Cómo usar este documento
 
-1. Empieza por la **[matriz de cobertura](#3-matriz-de-cobertura)**: qué idea toca cuántos módulos.
-2. Lee solo las fichas de las 3-4 ideas que te encajen (sección 4).
-3. Pásales el **[checklist de elección](#7-checklist-de-elección)** antes de decidirte.
-4. Si necesitas algo más pequeño, mira las **[ideas rápidas (plan B)](#5-ideas-rápidas-plan-b)**.
+1. Lee primero la **[guía para juegos en el navegador](#4-juegos-en-el-navegador)**: las reglas del juego aquí son distintas.
+2. Compara con la **[matriz de cobertura](#3-matriz-de-cobertura)** qué idea toca cuántos módulos.
+3. Lee solo las fichas de las 3-4 ideas que te encajen.
+4. Pásales el **[checklist de elección](#8-checklist-de-elección)** antes de decidirte.
+5. Si necesitas algo más pequeño, mira las **[ideas rápidas](#7-ideas-rápidas-plan-b)**.
 
 Tabla de contenidos:
 
 1. [RA → módulo: qué te van a pedir](#1-ra--módulo-qué-te-van-a-pedir)
 2. [Resumen de ideas](#2-resumen-de-ideas)
 3. [Matriz de cobertura](#3-matriz-de-cobertura)
-4. [Fichas detalladas](#4-fichas-detalladas)
-5. [Ideas rápidas (plan B)](#5-ideas-rápidas-plan-b)
+4. [Juegos en el navegador](#4-juegos-en-el-navegador)
+5. [Otras ideas (por si cambias de rumbo)](#5-otras-ideas-por-si-cambias-de-rumbo)
 6. [Recomendación según tu perfil](#6-recomendación-según-tu-perfil)
-7. [Checklist de elección](#7-checklist-de-elección)
-8. [Estructura propuesta de la memoria](#8-estructura-propuesta-de-la-memoria)
-9. [Trampas clásicas](#9-trampas-clásicas)
+7. [Ideas rápidas (plan B)](#7-ideas-rápidas-plan-b)
+8. [Checklist de elección](#8-checklist-de-elección)
+9. [Estructura propuesta de la memoria](#9-estructura-propuesta-de-la-memoria)
+10. [Trampas clásicas](#10-trampas-clásicas)
 
 ## 1. RA → módulo: qué te van a pedir
 
@@ -43,22 +45,45 @@ Tabla de contenidos:
 
 ## 2. Resumen de ideas
 
-| Idea | Qué es | Dificultad | Esfuerzo | Bloques cubiertos |
-|------|--------|:----------:|:--------:|:-----------------:|
-| 🎥 **SentinelVIS — Tu propio NVR de videovigilancia IP** | Un servidor multihilo que vigila N cámaras a la vez, entiende lo que ve y te avisa al móvil. | ●●●●● (5/5) | 140-180 h | 9/10 |
-| 📦 **LogiScan — Almacén con PDA, códigos de barras y RFID** | El RA dice literalmente 'teléfonos, PDA y otros dispositivos móviles': aquí la PDA es la protagonista. | ●●●●○ (4/5) | 120-160 h | 10/10 |
-| 🏋️ **GymCore — ERP-CRM de gimnasio con app de socio y multimedia** | Reservas, acceso por QR, rutinas en vídeo y cuotas facturadas desde el ERP: el pack completo. | ●●●●○ (4/5) | 130-170 h | 10/10 |
-| 🛡️ **NetSentinel — Monitorización de red y mini-SOC** | Descubre los equipos de la red, vigílalos a la vez y recibe la alerta antes de que caiga el servicio. | ●●●●○ (4/5) | 110-150 h | 9/10 |
-| 🍿 **StreamHub — Servidor multimedia y streaming (estilo Plex propio)** | Transcodifica bajo demanda, lleva el catálogo en la BD y sigue viendo la peli en el móvil donde la dejaste. | ●●●●○ (4/5) | 120-160 h | 9/10 |
-| 🚚 **FleetTrack — Flota y reparto con seguimiento GPS en vivo** | Ves los vehículos moverse en el mapa y la prueba de entrega llega con foto, firma y coordenadas. | ●●●●● (5/5) | 140-180 h | 10/10 |
-| 🎫 **HelpDesk Pro — Gestión de incidencias con SLA y app de técnico** | Tickets con SLA, técnicos en campo y facturación de horas: el clásico, pero bien hecho. | ●●●○○ (3/5) | 100-140 h | 10/10 |
-| 📄 **DocuFlow — Digitalización certificada y gestor documental con OCR** | Escaneas, el OCR indexa solo y cada documento queda trazado, cifrado y firmado. | ●●●●○ (4/5) | 120-160 h | 10/10 |
-| 🏠 **EcoDomus — Domótica y control de accesos con Raspberry Pi** | Luces, sensores, cerradura y cámara: todo orquestado por hilos y controlado desde el móvil. | ●●●●● (5/5) | 140-180 h | 9/10 |
-| 🍽️ **MesaFácil — Reservas para restaurante o alojamiento rural** | Concurrencia de verdad: dos clientes, la última mesa, una sola reserva. | ●●●○○ (3/5) | 100-140 h | 10/10 |
+| Tipo | Idea | Qué es | Dificultad | Esfuerzo | Bloques |
+|:----:|------|--------|:----------:|:--------:|:-------:|
+| 🎮 | **RiftDeck — Juego de cartas coleccionable online (TCG)** | Construyes tu mazo, juegas por turnos contra otro jugador y el servidor hace de árbitro. | ●●●●○ (4/5) | 130-170 h | 10/10 |
+| 🎮 | **QuizArena — Concurso multijugador en directo** | El presentador lanza la pregunta, veinte móviles responden a la vez y el marcador sube en vivo. | ●●●○○ (3/5) | 100-140 h | 10/10 |
+| 🎮 | **CodeQuest — Retos de lógica gamificados (y ejecutor en sandbox)** | Resuelves retos en el navegador, subes de nivel y compites con tu clase. | ●●●○○ (3/5) | 110-150 h | 10/10 |
+| 🎮 | **HexArena — Estrategia por turnos con IA que piensa en paralelo** | Un juego de estrategia donde la IA calcula en varios hilos a la vez y puedes medir cuánto gana. | ●●●●○ (4/5) | 120-160 h | 9/10 |
+| 🎮 | **Escape360 — Escape room cooperativo en 3D en el navegador** | Varias personas dentro de la misma habitación 3D, moviéndose a la vez y resolviendo puzles en equipo. | ●●●●● (5/5) | 140-180 h | 10/10 |
+| 🎮 | **AutoClash — Auto-battler por rondas con simulación en el servidor** | Compras unidades y colocas el tablero; el combate lo simula el servidor en paralelo y lo ves como replay. | ●●●●○ (4/5) | 120-160 h | 10/10 |
+| 🎮 | **PixelRaid — Arcade cooperativo en tiempo real (servidor autoritativo)** | Disparas en el navegador y el servidor decide si has acertado: netcode de verdad. | ●●●●● (5/5) | 150-190 h | 9/10 |
+| 🎮 | **GeoSprint — Captura territorial por GPS (móvil + mapa web en vivo)** | El juego vive en tu bolsillo; el navegador es el mapa que se pinta en directo. | ●●●●○ (4/5) | 130-170 h | 10/10 |
+| 💼 | **SentinelVIS — Tu propio NVR de videovigilancia IP** | Un servidor multihilo que vigila N cámaras a la vez, entiende lo que ve y te avisa al móvil. | ●●●●● (5/5) | 140-180 h | 9/10 |
+| 💼 | **LogiScan — Almacén con PDA, códigos de barras y RFID** | El RA dice literalmente 'teléfonos, PDA y otros dispositivos móviles': aquí la PDA es la protagonista. | ●●●●○ (4/5) | 120-160 h | 10/10 |
+| 💼 | **GymCore — ERP-CRM de gimnasio con app de socio y multimedia** | Reservas, acceso por QR, rutinas en vídeo y cuotas facturadas desde el ERP: el pack completo. | ●●●●○ (4/5) | 130-170 h | 10/10 |
+| 💼 | **NetSentinel — Monitorización de red y mini-SOC** | Descubre los equipos de la red, vigílalos a la vez y recibe la alerta antes de que caiga el servicio. | ●●●●○ (4/5) | 110-150 h | 9/10 |
+| 💼 | **StreamHub — Servidor multimedia y streaming (estilo Plex propio)** | Transcodifica bajo demanda, lleva el catálogo en la BD y sigue viendo la peli en el móvil donde la dejaste. | ●●●●○ (4/5) | 120-160 h | 9/10 |
+| 💼 | **FleetTrack — Flota y reparto con seguimiento GPS en vivo** | Ves los vehículos moverse en el mapa y la prueba de entrega llega con foto, firma y coordenadas. | ●●●●● (5/5) | 140-180 h | 10/10 |
+| 💼 | **HelpDesk Pro — Gestión de incidencias con SLA y app de técnico** | Tickets con SLA, técnicos en campo y facturación de horas: el clásico, pero bien hecho. | ●●●○○ (3/5) | 100-140 h | 10/10 |
+| 💼 | **DocuFlow — Digitalización certificada y gestor documental con OCR** | Escaneas, el OCR indexa solo y cada documento queda trazado, cifrado y firmado. | ●●●●○ (4/5) | 120-160 h | 10/10 |
+| 💼 | **EcoDomus — Domótica y control de accesos con Raspberry Pi** | Luces, sensores, cerradura y cámara: todo orquestado por hilos y controlado desde el móvil. | ●●●●● (5/5) | 140-180 h | 9/10 |
+| 💼 | **MesaFácil — Reservas para restaurante o alojamiento rural** | Concurrencia de verdad: dos clientes, la última mesa, una sola reserva. | ●●●○○ (3/5) | 100-140 h | 10/10 |
 
 ## 3. Matriz de cobertura
 
 `✔` = cubre el RA con peso · `~` = lo toca de forma opcional o secundaria · `–` = no aplica o hay que justificarlo
+
+**🎮 Juegos en el navegador**
+
+| Idea | `SI` | `SI-RA6` | `BD` | `ED` | `AD` | `PMDM·M` | `PMDM·MOV` | `DI` | `PSP` | `SGE` | Total |
+|------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 🂴 RiftDeck | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | **10** |
+| 🏆 QuizArena | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | **10** |
+| 🧩 CodeQuest | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | **10** |
+| ♟️ HexArena | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ~ | **9** |
+| 🏰 Escape360 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | **10** |
+| 🤖 AutoClash | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | **10** |
+| 🚀 PixelRaid | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ~ | **9** |
+| 🌍 GeoSprint | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | **10** |
+
+**💼 Otras ideas**
 
 | Idea | `SI` | `SI-RA6` | `BD` | `ED` | `AD` | `PMDM·M` | `PMDM·MOV` | `DI` | `PSP` | `SGE` | Total |
 |------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -93,11 +118,603 @@ tienes el detalle de **cómo** se justifica cada RA, que es lo que realmente te 
 Donde veas `~` o `–`, apunta en la memoria por qué no aplica o cómo lo cubres de forma transversal 
 (documentación, despliegue, pruebas, presupuesto).
 
-## 4. Fichas detalladas
+## 4. Juegos en el navegador
+
+### 4.0 Antes de elegir: cómo se defiende un juego en un proyecto intermodular
+
+Un juego es un proyecto **excelente**... siempre que no se quede en 'un canvas con sprites'. 
+Estas son las reglas que marcan la diferencia entre un 4 y un 9:
+
+- **El servidor es obligatorio.** Si todo ocurre en el navegador no hay PSP, no hay concurrencia real y la 'base de datos' es localStorage. Tu juego necesita servidor autoritativo: salas, temporizadores, validación de jugadas, ranking y persistencia. Es lo que convierte un juego en un proyecto de DAM.
+- **El canvas no cubre DI por sí solo.** El RA de interfaces habla de interfaces interactivas, usabilidad y componentes (estándar o propios). Añade un **panel de administración / editor de contenidos / gestión de usuarios** con formularios, tablas, validación, accesibilidad y componentes propios: ahí está la mitad de la nota de DI.
+- **La app móvil como companion cuenta (y mucho).** Notificaciones de turno, estadísticas, chat, tienda, retoques offline... Con la app haciendo algo real y sincronizado con el backend, el RA de móviles está cubierto sin tener que portar el juego entero.
+- **El ERP-CRM entra por la monetización.** Tienda de cosméticos, sobres, licencias para centros o empresas, reservas de sesiones, patrocinios: con Odoo montas ventas, facturación y CRM, migras datos y verificas integridad. Mejor eso que un módulo de ERP metido con calzador.
+- **Usa un motor, pero programa el juego.** Phaser, PixiJS, Three.js o Babylon son herramientas; lo evaluable es tu lógica: reglas, protocolo, servidor, persistencia y pruebas. Documenta en la memoria qué es del motor y qué es tuyo, con cifras (líneas de código propias, módulos, tests).
+- **Los assets no son el proyecto.** Usa bancos libres (Kenney, OpenGameArt, Poly Pizza, freesound) y cítalos en los anexos. Nadie te va a puntuar por dibujar sprites, y te puedes dejar 40 horas en ello.
+- **Mide y documenta el rendimiento.** Tick rate, salas concurrentes, speed-up de tu IA o simulador, latencia media, jugadores soportados en la prueba de carga: son capturas y gráficas directas para la memoria y para la defensa.
+- **Cierra el alcance con un 'vertical slice'.** Un nivel, dos jugadores, tres mecánicas, un modo de juego. Un juego pequeño terminado y bien documentado puntúa mucho más que uno ambicioso a medias.
+- **Cuidado con los menores y el RGPD.** Si el juego tiene registro, chat o ranking con menores de 14 años, documenta consentimiento, minimización de datos, retención y borrado. En un juego esto suma puntos en seguridad.
+- **Graba un vídeo de la demo.** Los juegos en directo fallan el día de la defensa (red, latencia, un bug tonto). Ten siempre un vídeo corto y un servidor en local listo.
+
+**Stack orientativo para juegos web**
+
+| Pieza | Opción recomendada |
+|-------|--------------------|
+| 2D (el más recomendable) | Phaser 3 o PixiJS (canvas/WebGL) + TypeScript + Vite |
+| 3D | Three.js o Babylon.js con modelos glTF |
+| UI / menús / panel de admin | Vue 3, React o Svelte (el juego no tiene por qué ser solo canvas) |
+| Servidor de salas | Node + Socket.IO / Colyseus, o Java + Netty / Spring WebSocket |
+| Tiempo real | Snapshot a 15-20 Hz + interpolación + predicción del cliente |
+| Audio | Web Audio API (música dinámica y pool de SFX) |
+| Persistencia | PostgreSQL (+ Redis para estado caliente de sala y matchmaking) |
+| Pruebas | Vitest/Jest para la lógica, bots de prueba y k6 o Artillery para carga |
+| Despliegue | Docker + Nginx (TLS y proxy de WebSocket) + CI en GitHub Actions |
+| Assets libres | Kenney, OpenGameArt, Poly Pizza, freesound.org (cítalos en los anexos) |
 
 ---
 
-### 4.1 🎥 SentinelVIS — Tu propio NVR de videovigilancia IP
+### 4.1 🂴 RiftDeck — Juego de cartas coleccionable online (TCG)
+
+*Construyes tu mazo, juegas por turnos contra otro jugador y el servidor hace de árbitro.*
+
+| | |
+|---|---|
+| Dificultad | ●●●●○ (4/5) |
+| Esfuerzo estimado | 130-170 h |
+| Bloques cubiertos | 10/10 |
+| Etiquetas | navegador, multijugador, por turnos, matchmaking, tienda |
+
+**De qué va.** Juego de cartas por turnos en el navegador con dos frentes: el cliente de partida (tablero, mano, animaciones) y un panel web de gestión (editor de cartas, moderación, estadísticas). Detrás, un servidor autoritativo multihilo: una sala por partida, matchmaking por ELO, motor de reglas en el servidor, ranking y tienda. La app Android companion completa el círculo con la colección, los mazos y los avisos de torneo.
+
+**Arquitectura (de un vistazo)**
+
+- Servidor de salas: cada partida es una sala con su bucle de turnos en un hilo del pool; hilo propio para la cola de emparejamiento.
+- Motor de reglas autoritativo: el cliente solo envía intenciones, el servidor valida y devuelve el estado (anti-trampas natural).
+- API REST + WebSocket (Socket.IO) para acciones de partida, chat y presencia.
+- Cliente web: Phaser 3 o PixiJS para el tablero; Vue/React para login, tienda y menús.
+- PostgreSQL (jugadores, cartas, mazos, partidas, transacciones) + Redis (matchmaking y presencia) + Odoo (tienda y facturación).
+
+**Stack sugerido**
+
+| Pieza | Tecnología |
+|-------|------------|
+| Cliente web | Phaser 3 + TypeScript (o PixiJS) + Vite |
+| UI / menús | Vue 3 + Pinia + Tailwind |
+| Servidor | Node + Colyseus/Socket.IO (o Java + Netty si prefieres PSP en Java) |
+| Datos | PostgreSQL + Redis |
+| Móvil | Kotlin + Room + FCM |
+| ERP | Odoo Community (Tienda, Ventas, Facturación, CRM) |
+| Infra | Debian + Docker + Nginx (TLS + proxy WebSocket) + copias |
+
+**Cómo cubre cada RA**
+
+| Bloque | Cómo lo justificas |
+|--------|--------------------|
+| ✔ **Configuración y explotación de sistemas** (`SI`) | Despliegue en Linux con Docker, Nginx con TLS y proxy de WebSockets, servicios con systemd, copias automáticas y monitorización de salas activas. |
+| ✔ **Seguridad en sistemas, servicios y aplicaciones** (`SI-RA6`) | Servidor autoritativo (el cliente no decide nada), JWT con 2FA, rate limiting, validación de cada acción, protección de la economía virtual, RGPD y menores, y registro de auditoría. |
+| ✔ **Gestión de bases de datos** (`BD`) | Modelo jugadores-cartas-mazos-partidas-transacciones; la joya es la economía: transacciones que impiden gastar dos veces el mismo recurso, histórico de partidas y copias verificadas. |
+| ✔ **Gestión de entornos de desarrollo** (`ED`) | Monorepo con workspaces, CI (lint, test, build), entornos dev/staging/prod y pruebas automatizadas del motor de reglas y del emparejamiento. |
+| ✔ **Acceso a datos** (`AD`) | Capa ORM/DAO, consultas de ranking paginadas, exportación de replays en JSON y cliente de la API del ERP. |
+| ✔ **Contenidos multimedia** (`PMDM·M`) | Sprites y animaciones de cartas, efectos de partículas al invocar, música y SFX con WebAudio, transiciones y generación de las imágenes del catálogo de cartas. |
+| ✔ **Dispositivos móviles** (`PMDM·MOV`) | App Android companion: consulta colección y mazos, recibe notificaciones de torneos y de turno pendiente, chat de amigos y recompensa diaria con trabajo en segundo plano. |
+| ✔ **Desarrollo de interfaces** (`DI`) | Mucho más que un canvas: login y registro, editor de mazos drag&drop con filtros, tienda, panel de administración y componentes propios (carta con estados, contador de turnos, tooltip de habilidades). |
+| ✔ **Servicios y procesos (multiproceso / multihilo)** (`PSP`) | Cada partida vive en una sala con su propio bucle de turnos dentro de un pool, más un hilo de emparejamiento y workers de ranking y cierre de temporada. Hay estado compartido que hay que sincronizar de verdad: es PSP de manual. |
+| ✔ **Sistemas de gestión empresarial (ERP-CRM)** (`SGE`) | Odoo para la tienda (sobres, cosméticos), pedidos, facturación y CRM de jugadores con campañas de retención; migración de datos y verificación de integridad. |
+
+**Por qué mola**
+
+- Es el juego que más parece un producto real: economía, matchmaking, ranking, tienda y temporadas.
+- Al ser por turnos no te peleas con el netcode de precisión, y aun así el PSP es fortísimo.
+- Demo facilísima: abres dos pestañas (o un móvil) y juegas contra ti mismo en directo.
+
+**Riesgos y cómo mitigarlos**
+
+- El motor de reglas crece sin control: define 20-30 cartas y 3 mecánicas, y documenta el resto como 'líneas futuras'.
+- El arte puede comerte horas: usa assets libres (Kenney, OpenGameArt) y cítalos en los anexos.
+- Cuidado con clonar Hearthstone: cambia temática y mete una mecánica propia para que sea defendible.
+
+**Alcance por fases (corta aquí si te falta tiempo)**
+
+| Fase | Entregable |
+|------|------------|
+| MVP | 20 cartas y reglas básicas; Partida 1v1 por WebSocket; Login y ranking; Matchmaking simple |
+| Fase 2 | Editor de mazos drag&drop; Tienda y moneda virtual; App companion; Chat y amigos |
+| Fase 3 | ELO y temporadas; Replays; Integración con Odoo; Panel de moderación |
+
+---
+
+### 4.2 🏆 QuizArena — Concurso multijugador en directo
+
+*El presentador lanza la pregunta, veinte móviles responden a la vez y el marcador sube en vivo.*
+
+| | |
+|---|---|
+| Dificultad | ●●●○○ (3/5) |
+| Esfuerzo estimado | 100-140 h |
+| Bloques cubiertos | 10/10 |
+| Etiquetas | navegador, tiempo real, móvil, aulas, demoable |
+
+**De qué va.** Juego de preguntas en directo para aulas, empresas y eventos. El presentador conduce el concurso desde un panel con pantalla proyectable; los jugadores entran con un código desde el móvil o el navegador y responden con límite de tiempo. El servidor mantiene muchas salas concurrentes con temporizadores precisos, puntúa por velocidad y emite el marcador en vivo. Preguntas con imagen, audio y vídeo, informes PDF por sesión y licencias facturadas en el ERP.
+
+**Arquitectura (de un vistazo)**
+
+- Servidor de salas concurrentes: hilo por sala para el temporizador de pregunta y broadcast por WebSocket.
+- Panel del presentador (web o app de escritorio con Tauri) con pantalla proyectable y control de ritmo.
+- Cliente del jugador: web responsive + app Android nativa con notificaciones e historial.
+- BD de preguntas por categorías con multimedia adjunta; generación de informes y diplomas PDF.
+- ERP: centros y empresas, licencias, facturación recurrente y CRM.
+
+**Stack sugerido**
+
+| Pieza | Tecnología |
+|-------|------------|
+| Cliente web | Vue 3 + Canvas/CSS para animaciones (o Phaser 3 si quieres más juego) |
+| Presentador | Web + proyección a pantalla completa, o empaquetado con Tauri |
+| Servidor | Node + Socket.IO (o Spring Boot + WebSocket) con pool de salas |
+| Móvil | Kotlin + FCM + Room |
+| Datos | PostgreSQL + Redis (salas en memoria) |
+| ERP | Odoo Community (Ventas, Suscripciones, CRM) |
+| Infra | Linux + Docker + Nginx + bots de prueba para carga |
+
+**Cómo cubre cada RA**
+
+| Bloque | Cómo lo justificas |
+|--------|--------------------|
+| ✔ **Configuración y explotación de sistemas** (`SI`) | Despliegue con Docker + Nginx + TLS, WebSockets, copias automáticas y monitorización; prueba de carga con 100 jugadores simulados. |
+| ✔ **Seguridad en sistemas, servicios y aplicaciones** (`SI-RA6`) | Códigos de sala con caducidad, JWT, rate limit anti-spam, validación en servidor del instante de respuesta (anti-trampas), RGPD y menores. |
+| ✔ **Gestión de bases de datos** (`BD`) | Modelo cuestionarios-preguntas-sesiones-respuestas con integridad referencial, transacciones al cerrar cada ronda y estadísticas de acierto. |
+| ✔ **Gestión de entornos de desarrollo** (`ED`) | CI, pruebas end-to-end del flujo de partida con bots, entornos separados y empaquetado del panel con Tauri. |
+| ✔ **Acceso a datos** (`AD`) | ORM, consultas de ranking y estadísticas por sesión, exportación de resultados y cliente de la API del ERP. |
+| ✔ **Contenidos multimedia** (`PMDM·M`) | Preguntas con imagen, audio y vídeo; cuenta atrás sonora, animaciones de acierto/fallo y diplomas en PDF. |
+| ✔ **Dispositivos móviles** (`PMDM·MOV`) | App Android del jugador: entra con código, responde, ve el resultado y recibe avisos de próximos concursos; modo repaso offline. |
+| ✔ **Desarrollo de interfaces** (`DI`) | Pantalla del presentador, marcador en vivo y panel de gestión de preguntas con componentes animados propios (barra de tiempo, podio, racha de aciertos). |
+| ✔ **Servicios y procesos (multiproceso / multihilo)** (`PSP`) | Decenas de salas simultáneas, cada una con su temporizador y su broadcast, más workers de cálculo de ranking y de generación de informes: concurrencia con sentido y medible. |
+| ✔ **Sistemas de gestión empresarial (ERP-CRM)** (`SGE`) | Odoo para centros y empresas: licencias, suscripciones, facturación recurrente y CRM con informes de uso. |
+
+**Por qué mola**
+
+- La defensa se monta sola: el tribunal saca el móvil, mete el código y juega en directo.
+- Es el más barato de desarrollar y el más demoable de toda la lista.
+- Encaja en un caso real (tu centro, empresas de formación, eventos) sin inventarte nada.
+
+**Riesgos y cómo mitigarlos**
+
+- Es 'el típico Kahoot': diferénciate con el modo torneo, los informes y las licencias en el ERP.
+- Los temporizadores en red son delicados: el reloj lo manda el servidor y se compensa la latencia (documéntalo, es material de memoria).
+- Necesitas contenido: crea 3 cuestionarios de 20 preguntas y un importador CSV.
+
+**Alcance por fases (corta aquí si te falta tiempo)**
+
+| Fase | Entregable |
+|------|------------|
+| MVP | Salas con código; Pregunta con temporizador; Marcador en vivo; Panel del presentador |
+| Fase 2 | Preguntas multimedia; App móvil; Informes PDF; Ranking global |
+| Fase 3 | Modo torneo; Importador CSV; Licencias en Odoo; Bots y pruebas de carga |
+
+---
+
+### 4.3 🧩 CodeQuest — Retos de lógica gamificados (y ejecutor en sandbox)
+
+*Resuelves retos en el navegador, subes de nivel y compites con tu clase.*
+
+| | |
+|---|---|
+| Dificultad | ●●●○○ (3/5) |
+| Esfuerzo estimado | 110-150 h |
+| Bloques cubiertos | 10/10 |
+| Etiquetas | navegador, gamificación, sandbox, educativo, seguridad |
+
+**De qué va.** Plataforma de aprendizaje gamificada: el alumno resuelve retos de lógica (puzles de bloques, laberintos, pequeños programas) en un cliente web 2D, con niveles, logros, rachas y ranking por clase. El profesor crea itinerarios y ve analítica de progreso. La parte técnica estrella: las soluciones se ejecutan y validan en workers aislados con límite de tiempo y memoria, y el ERP-CRM gestiona centros, licencias y facturación.
+
+**Arquitectura (de un vistazo)**
+
+- Cliente web: Phaser 3 o PixiJS para los retos, Vue/React para menús, perfil y progreso.
+- Servidor: API REST + WebSocket y un ejecutor de soluciones en procesos aislados (sandbox) con cola y límite de workers.
+- Motor de gamificación en servidor: puntos, logros, rachas y niveles (para que no se puedan falsear).
+- Panel del profesor con analítica, itinerarios y exportación de informes.
+- ERP: centros educativos, licencias, facturación y CRM.
+
+**Stack sugerido**
+
+| Pieza | Tecnología |
+|-------|------------|
+| Cliente web | Phaser 3 o PixiJS + Vue 3 |
+| Servidor | Node o Python (FastAPI) + cola de trabajos |
+| Ejecución aislada | Procesos con límites (ulimit/cgroups) o contenedores efímeros |
+| Datos | PostgreSQL + Redis |
+| Móvil | Kotlin + Room + FCM |
+| ERP | Odoo Community (Ventas, Suscripciones, CRM) |
+| Infra | Linux + Docker + Nginx + monitorización de la cola |
+
+**Cómo cubre cada RA**
+
+| Bloque | Cómo lo justificas |
+|--------|--------------------|
+| ✔ **Configuración y explotación de sistemas** (`SI`) | Servidor Linux con Docker, Nginx, cola de trabajos, copias y monitorización del consumo de la cola. |
+| ✔ **Seguridad en sistemas, servicios y aplicaciones** (`SI-RA6`) | El sandbox es oro: límites de tiempo/memoria, sin red y sin disco, validación en servidor; además JWT, roles y RGPD con menores de edad (dato sensible). |
+| ✔ **Gestión de bases de datos** (`BD`) | Modelo alumnos-retos-intentos-logros con integridad referencial, histórico de intentos y agregados para la analítica. |
+| ✔ **Gestión de entornos de desarrollo** (`ED`) | CI con pruebas del evaluador, versionado del formato de retos, entornos separados y empaquetado. |
+| ✔ **Acceso a datos** (`AD`) | ORM, consultas de progreso y ranking, exportación de datos y cliente del ERP. |
+| ✔ **Contenidos multimedia** (`PMDM·M`) | Gráficos 2D de los retos, animaciones de logros, efectos de sonido y generación de diplomas PDF. |
+| ✔ **Dispositivos móviles** (`PMDM·MOV`) | App Android para repasar retos cortos, mantener la racha con notificaciones y consultar el progreso sin conexión. |
+| ✔ **Desarrollo de interfaces** (`DI`) | Panel del profesor, perfil del alumno con progreso visual, editor de itinerarios drag&drop y componentes propios de puzle y de logro. |
+| ✔ **Servicios y procesos (multiproceso / multihilo)** (`PSP`) | La cola de ejecución con workers concurrentes, timeouts, cancelación y límites de CPU es multiproceso de verdad, con un riesgo real que hay que controlar y documentar. |
+| ✔ **Sistemas de gestión empresarial (ERP-CRM)** (`SGE`) | Odoo para centros educativos, licencias por alumno, facturación y CRM; verificación de integridad tras la migración. |
+
+**Por qué mola**
+
+- Tiene impacto real: puedes usarla con tus propios compañeros y el tribunal lo ve funcionando.
+- El sandbox de ejecución es un problema técnico duro que te da PSP y seguridad a la vez.
+- El alcance se recorta facilísimo sin que el proyecto se quede cojo.
+
+**Riesgos y cómo mitigarlos**
+
+- Ejecutar código de alumnos es peligroso: empieza con retos de bloques/lógica, y si ejecutas código, aísla de verdad (y cuéntalo en la memoria).
+- Riesgo de 'otra plataforma educativa más': el centro del proyecto es el juego y la gamificación.
+- La analítica crece sin parar: limita a cuatro gráficas bien hechas.
+
+**Alcance por fases (corta aquí si te falta tiempo)**
+
+| Fase | Entregable |
+|------|------------|
+| MVP | 5-8 retos jugables; Sistema de niveles y logros; Panel del profesor; Ranking por clase |
+| Fase 2 | Ejecutor sandbox de soluciones; Editor de itinerarios; App móvil de repaso; Informes PDF |
+| Fase 3 | Analítica avanzada; Licencias en Odoo; Modo competición entre clases |
+
+---
+
+### 4.4 ♟️ HexArena — Estrategia por turnos con IA que piensa en paralelo
+
+*Un juego de estrategia donde la IA calcula en varios hilos a la vez y puedes medir cuánto gana.*
+
+| | |
+|---|---|
+| Dificultad | ●●●●○ (4/5) |
+| Esfuerzo estimado | 120-160 h |
+| Bloques cubiertos | 9/10 |
+| Etiquetas | navegador, IA, multihilo, por turnos, medible |
+
+**De qué va.** Juego de estrategia por turnos en el navegador (batallas en tablero hexagonal) contra otros jugadores o contra la IA. La búsqueda de jugadas (minimax con poda alfa-beta o MCTS) se reparte en un pool de hilos/procesos en el servidor, con control de tiempo y una comparativa secuencial vs concurrente que es material directo para la memoria. Incluye matchmaking, ELO, repeticiones de partidas y editor de mapas.
+
+**Arquitectura (de un vistazo)**
+
+- Cliente web: PixiJS/Phaser o Canvas para el tablero hexagonal; UI en Vue/React.
+- Servidor: una sala de partida por hilo, servicio de IA con pool de workers y cola de trabajos con timeout.
+- Módulo de medidas: tiempos secuencial frente a paralelo y gráfica de speed-up para la documentación.
+- BD con partidas, movimientos y repeticiones; Redis para matchmaking y presencia.
+- App móvil para partidas asíncronas ('por correspondencia') con notificación de turno.
+
+**Stack sugerido**
+
+| Pieza | Tecnología |
+|-------|------------|
+| Cliente web | PixiJS o Phaser 3 + TypeScript |
+| Servidor | Java (ExecutorService/ForkJoin) o Node con worker_threads |
+| IA | Minimax con poda alfa-beta / MCTS, con límite de tiempo |
+| Datos | PostgreSQL + Redis |
+| Móvil | Kotlin + FCM + Room |
+| Infra | Linux + Docker + Nginx + benchmark automático |
+
+**Cómo cubre cada RA**
+
+| Bloque | Cómo lo justificas |
+|--------|--------------------|
+| ✔ **Configuración y explotación de sistemas** (`SI`) | Servidor Linux, contenedores, Nginx con WebSockets, copias y monitorización. |
+| ✔ **Seguridad en sistemas, servicios y aplicaciones** (`SI-RA6`) | Servidor autoritativo de reglas, validación de cada movimiento, JWT, límites de tiempo de turno, anti-trampas y auditoría. |
+| ✔ **Gestión de bases de datos** (`BD`) | Modelo partidas-movimientos-repeticiones con integridad, transacción por turno, histórico y copias. |
+| ✔ **Gestión de entornos de desarrollo** (`ED`) | CI con pruebas del motor de IA, benchmarks automáticos del speed-up, entornos y empaquetado. |
+| ✔ **Acceso a datos** (`AD`) | ORM, consultas de historial y ranking, serialización de repeticiones y exportación. |
+| ✔ **Contenidos multimedia** (`PMDM·M`) | Sprites de unidades, animaciones de ataque, partículas, sonido y miniaturas de mapa generadas. |
+| ✔ **Dispositivos móviles** (`PMDM·MOV`) | App Android de partidas asíncronas: te toca el turno, te llega la notificación y juegas desde el móvil sin pelearte con el tiempo real. |
+| ✔ **Desarrollo de interfaces** (`DI`) | Tablero interactivo como componente propio (hit-testing hexagonal), menús, editor de mapas y visor de repeticiones con controles de reproducción. |
+| ✔ **Servicios y procesos (multiproceso / multihilo)** (`PSP`) | El mejor escaparate de la lista: pool de hilos para buscar jugadas, salas concurrentes, cancelación por timeout, secciones críticas y una gráfica de speed-up que demuestra el multihilo con números. |
+| ~ **Sistemas de gestión empresarial (ERP-CRM)** (`SGE`) | Opcional: Odoo para torneos, inscripciones, premios y facturación de patrocinios. |
+
+**Por qué mola**
+
+- Es el proyecto donde el multihilo se ve, se mide y se defiende con una gráfica en la memoria.
+- Sin arte complejo: con sprites sencillos queda precioso y todo el esfuerzo va al código.
+- El modo asíncrono te da notificaciones móviles sin complicarte con netcode.
+
+**Riesgos y cómo mitigarlos**
+
+- Una IA decente consume horas: fija profundidad, poda y tiempo máximo de cómputo.
+- Evita el tiempo real como MVP: el modo asíncrono es suficiente y más seguro.
+- Riesgo de 'clon del ajedrez': diseña reglas propias (unidades, recursos, mapa, condiciones de victoria).
+
+**Alcance por fases (corta aquí si te falta tiempo)**
+
+| Fase | Entregable |
+|------|------------|
+| MVP | Tablero hexagonal jugable; Reglas de 3-4 unidades; IA secuencial con profundidad fija; Partida contra IA |
+| Fase 2 | IA paralela con pool de hilos y medición; Multijugador asíncrono; App móvil de turnos; Editor de mapas |
+| Fase 3 | Matchmaking y ELO; Repeticiones; Torneos; Integración ERP opcional |
+
+---
+
+### 4.5 🏰 Escape360 — Escape room cooperativo en 3D en el navegador
+
+*Varias personas dentro de la misma habitación 3D, moviéndose a la vez y resolviendo puzles en equipo.*
+
+| | |
+|---|---|
+| Dificultad | ●●●●● (5/5) |
+| Esfuerzo estimado | 140-180 h |
+| Bloques cubiertos | 10/10 |
+| Etiquetas | navegador, 3D, cooperativo, editor, multimedia |
+
+**De qué va.** Escape room cooperativo en primera persona con Three.js o Babylon.js: hasta 4 jugadores simultáneos en la misma sala, sincronización de posición e inventario, puzles encadenados y chat de equipo. Un editor web permite al monitor crear salas, colocar objetos y definir puzles sin programar. El servidor mantiene el estado de cada sala en su hilo, y el ERP-CRM gestiona las reservas de empresas y la facturación de sesiones.
+
+**Arquitectura (de un vistazo)**
+
+- Cliente 3D: Three.js o Babylon.js con modelos glTF, iluminación, colisiones y audio espacial (WebAudio).
+- Servidor de salas multihilo: estado compartido de la sala, sincronización de posiciones a 15-20 Hz y validación de puzles.
+- Editor de salas: colocación de objetos, definición de puzles y exportación a JSON versionado.
+- Chat de equipo (y voz por WebRTC como extra).
+- ERP: empresas clientas, reservas de sesión, facturación y CRM.
+
+**Stack sugerido**
+
+| Pieza | Tecnología |
+|-------|------------|
+| Cliente 3D | Three.js o Babylon.js + TypeScript |
+| UI y editor | Vue 3 + inspector de propiedades |
+| Servidor | Node + Socket.IO (o Colyseus) con salas en hilos |
+| Assets | Modelos glTF libres (Kenney, Poly Pizza, Sketchfab CC) |
+| Datos | PostgreSQL + Redis (estado de sala) |
+| ERP | Odoo Community (Ventas, Reservas, Facturación, CRM) |
+| Infra | Linux + Docker + Nginx + TURN propio para WebRTC |
+
+**Cómo cubre cada RA**
+
+| Bloque | Cómo lo justificas |
+|--------|--------------------|
+| ✔ **Configuración y explotación de sistemas** (`SI`) | Despliegue con Docker, Nginx con TLS, WebSockets y TURN, copias y monitorización. |
+| ✔ **Seguridad en sistemas, servicios y aplicaciones** (`SI-RA6`) | Validación de puzles en servidor, JWT, salas privadas con código y caducidad, RGPD y auditoría de sesiones. |
+| ✔ **Gestión de bases de datos** (`BD`) | Modelo salas-objetos-puzles-sesiones-reservas con integridad referencial, transacciones de reserva y copias. |
+| ✔ **Gestión de entornos de desarrollo** (`ED`) | CI, pruebas del editor y del formato de sala, entornos y empaquetado. |
+| ✔ **Acceso a datos** (`AD`) | ORM, persistencia de sesiones y resultados, exportación de salas a JSON y cliente del ERP. |
+| ✔ **Contenidos multimedia** (`PMDM·M`) | El más fuerte de todos en multimedia: modelos 3D, texturas, iluminación, animaciones, audio espacial y efectos de postproceso. |
+| ✔ **Dispositivos móviles** (`PMDM·MOV`) | App Android como mando del jugador: inventario, pistas, chat y notificaciones de sesión (o visor móvil de la sala). |
+| ✔ **Desarrollo de interfaces** (`DI`) | El editor de salas es un producto dentro del producto: drag&drop, capas, inspector de propiedades y guardado/versionado. Ahí se defiende DI sin discusión. |
+| ✔ **Servicios y procesos (multiproceso / multihilo)** (`PSP`) | Una sala cooperativa por hilo con estado compartido entre jugadores, cola de mensajes, workers de validación de puzles y temporizador de sesión. |
+| ✔ **Sistemas de gestión empresarial (ERP-CRM)** (`SGE`) | Odoo para empresas clientas: reservas de sesiones de team building, facturación y CRM; verificación de integridad. |
+
+**Por qué mola**
+
+- Técnicamente el más ambicioso y el que más impresiona en pantalla grande.
+- El editor de salas te salva el RA de interfaces: es una aplicación de gestión dentro del juego.
+- Se puede plantear como negocio real de escape rooms para empresas.
+
+**Riesgos y cómo mitigarlos**
+
+- El 3D en el navegador es carísimo en tiempo: una sola sala bien hecha y assets gratuitos.
+- Sincronizar jugadores es lo más difícil: empieza con 2 jugadores y 15 Hz.
+- Rendimiento en equipos modestos: perfil gráfico automático y modelo de baja poligonización.
+
+**Alcance por fases (corta aquí si te falta tiempo)**
+
+| Fase | Entregable |
+|------|------------|
+| MVP | Una sala 3D navegable; 2 jugadores sincronizados; 2-3 puzles encadenados; Chat de equipo |
+| Fase 2 | Editor de salas; Inventario compartido; App mando; Audio espacial |
+| Fase 3 | 4 jugadores; Reservas y facturación en Odoo; Voz por WebRTC |
+
+---
+
+### 4.6 🤖 AutoClash — Auto-battler por rondas con simulación en el servidor
+
+*Compras unidades y colocas el tablero; el combate lo simula el servidor en paralelo y lo ves como replay.*
+
+| | |
+|---|---|
+| Dificultad | ●●●●○ (4/5) |
+| Esfuerzo estimado | 120-160 h |
+| Bloques cubiertos | 10/10 |
+| Etiquetas | navegador, multijugador, simulación, determinismo, temporadas |
+
+**De qué va.** Auto-battler multijugador: 8 jugadores compran y colocan unidades durante una fase de preparación con tiempo límite; al cerrar, el servidor simula todos los combates a la vez en un pool de workers y devuelve el resultado como una replay animada en el cliente web. Temporadas, ranking, tienda rotatoria y cosméticos. La clave técnica: el simulador es determinista por semilla, así que se puede reproducir, verificar y testear.
+
+**Arquitectura (de un vistazo)**
+
+- Servidor: salas de 8 jugadores con temporizador de fase (hilo por sala) y simulador determinista ejecutado en un pool de workers.
+- Cliente web: Phaser/PixiJS para el tablero y la reproducción de combates; Vue/React para tienda y perfil.
+- Sistema de temporadas, ranking y cosméticos con tienda conectada al ERP.
+- App móvil companion: estadísticas, cola, historial de combates y avisos de temporada.
+- Suite de tests que reproduce combates a partir de la semilla (regresión y anti-trampas).
+
+**Stack sugerido**
+
+| Pieza | Tecnología |
+|-------|------------|
+| Cliente web | Phaser 3 o PixiJS + TypeScript |
+| Servidor | Java (pool de hilos) o Node con worker_threads |
+| Simulador | Lógica determinista con semilla + PRNG propio (nada de Math.random) |
+| Datos | PostgreSQL + Redis |
+| Móvil | Kotlin + Room + FCM |
+| ERP | Odoo Community (Tienda, Facturación, CRM) |
+| Infra | Linux + Docker + Nginx + pruebas de carga del simulador |
+
+**Cómo cubre cada RA**
+
+| Bloque | Cómo lo justificas |
+|--------|--------------------|
+| ✔ **Configuración y explotación de sistemas** (`SI`) | Docker, Nginx + WebSockets, copias, monitorización y pruebas de carga del simulador. |
+| ✔ **Seguridad en sistemas, servicios y aplicaciones** (`SI-RA6`) | El cliente no puede mentir porque no simula nada: determinismo verificable por semilla, JWT, rate limit y auditoría de resultados. |
+| ✔ **Gestión de bases de datos** (`BD`) | Modelo temporadas-partidas-rondas-compras con integridad de la economía (transacciones al comprar y vender unidades) y copias. |
+| ✔ **Gestión de entornos de desarrollo** (`ED`) | CI con tests del simulador (combates reproducibles), benchmarks de workers, entornos y empaquetado. |
+| ✔ **Acceso a datos** (`AD`) | ORM, consultas de ranking y metadatos de temporada, serialización de combates y cliente del ERP. |
+| ✔ **Contenidos multimedia** (`PMDM·M`) | Sprites y animaciones de combate, efectos, sonido, y generación de miniaturas de composición para el historial. |
+| ✔ **Dispositivos móviles** (`PMDM·MOV`) | App companion con estadísticas de temporada, historial de combates y notificaciones de inicio de ronda. |
+| ✔ **Desarrollo de interfaces** (`DI`) | Tablero de preparación drag&drop, tienda rotatoria, panel de administración de temporadas y componentes propios de unidad y barra de vida. |
+| ✔ **Servicios y procesos (multiproceso / multihilo)** (`PSP`) | Ocho combates simulados a la vez en un pool de workers, con semillas, reintentos, cancelación por timeout y medición de rendimiento: concurrencia que se justifica sola. |
+| ✔ **Sistemas de gestión empresarial (ERP-CRM)** (`SGE`) | Odoo para la tienda de cosméticos, pedidos, facturación y CRM de jugadores. |
+
+**Por qué mola**
+
+- Todo el juego ocurre en el servidor: es el anti-trampas y el argumento de PSP en uno.
+- Las replays te dan demo garantizada aunque el tribunal no sepa jugar.
+- Sin netcode de precisión: solo hay que sincronizar el inicio y el final de cada ronda.
+
+**Riesgos y cómo mitigarlos**
+
+- El balance consume horas: 8-10 unidades y 3 sinergias, ni una más.
+- El determinismo exige disciplina (nada de Math.random ni depender del orden de un mapa): documéntalo, es oro para la memoria.
+- Arte: assets libres y una paleta coherente, no sprites hechos a mano.
+
+**Alcance por fases (corta aquí si te falta tiempo)**
+
+| Fase | Entregable |
+|------|------------|
+| MVP | Tablero y 8 unidades; Fase de preparación con temporizador; Simulador determinista; Replay del combate |
+| Fase 2 | 8 jugadores por sala; Economía y tienda; Pool de workers y medición; Ranking |
+| Fase 3 | Temporadas y cosméticos; App companion; Tienda en Odoo |
+
+---
+
+### 4.7 🚀 PixelRaid — Arcade cooperativo en tiempo real (servidor autoritativo)
+
+*Disparas en el navegador y el servidor decide si has acertado: netcode de verdad.*
+
+| | |
+|---|---|
+| Dificultad | ●●●●● (5/5) |
+| Esfuerzo estimado | 150-190 h |
+| Bloques cubiertos | 9/10 |
+| Etiquetas | navegador, tiempo real, netcode, servidor autoritativo, arriesgado |
+
+**De qué va.** Arcade cooperativo multijugador en tiempo real (bullet-hell por oleadas) con servidor autoritativo: bucle de simulación a 30 Hz por sala, predicción del lado del cliente, interpolación de entidades remotas y reconciliación de estado. Incluye progresión persistente, ranking semanal, salas privadas y un panel de administración con métricas en vivo del servidor (tick rate, latencia, salas activas).
+
+**Arquitectura (de un vistazo)**
+
+- Servidor: bucle de simulación por sala (hilo por sala), snapshots a 20 Hz y comandos de entrada del cliente.
+- Cliente web: Phaser 3 o PixiJS con predicción de movimiento e interpolación; HUD y lobby.
+- Servicio de métricas y logging de partidas; ranking semanal y progresión persistente.
+- Panel de administración con salas en vivo, expulsiones y gráficas de latencia y ticks.
+- Bots de prueba para generar carga y demostrar la concurrencia.
+
+**Stack sugerido**
+
+| Pieza | Tecnología |
+|-------|------------|
+| Cliente web | Phaser 3 o PixiJS + TypeScript |
+| Servidor | Node + Socket.IO (UDP si te atreves) o Java + Netty |
+| Red | Snapshots + interpolación + reconciliación (predicción del cliente) |
+| Datos | PostgreSQL + Redis (estado caliente de sala) |
+| Móvil | Kotlin companion (estadísticas, ranking, invitaciones) |
+| Infra | Linux + Docker + Nginx + monitorización de tick rate |
+
+**Cómo cubre cada RA**
+
+| Bloque | Cómo lo justificas |
+|--------|--------------------|
+| ✔ **Configuración y explotación de sistemas** (`SI`) | Servidor Linux, Docker, Nginx, WebSockets, monitorización del tick rate y copias. |
+| ✔ **Seguridad en sistemas, servicios y aplicaciones** (`SI-RA6`) | Servidor autoritativo, validación de movimiento y disparo, límites de tasa, detección de speedhack, JWT y auditoría. |
+| ✔ **Gestión de bases de datos** (`BD`) | Modelo jugadores-partidas-oleadas-progresión con integridad referencial, transacciones al guardar progresión y copias. |
+| ✔ **Gestión de entornos de desarrollo** (`ED`) | CI, tests de simulación determinista, entornos, empaquetado y pruebas de carga con bots. |
+| ✔ **Acceso a datos** (`AD`) | ORM, consultas de ranking y progresión, persistencia de métricas por partida. |
+| ✔ **Contenidos multimedia** (`PMDM·M`) | Sprites animados, partículas, screen shake, música dinámica y pool de efectos de sonido con WebAudio. |
+| ✔ **Dispositivos móviles** (`PMDM·MOV`) | App Android companion: ranking semanal, estadísticas, lista de amigos y notificaciones de invitación a sala. |
+| ✔ **Desarrollo de interfaces** (`DI`) | HUD de partida, lobby, salas privadas y un panel de administración en vivo con gráficas reales de latencia y ticks por segundo. |
+| ✔ **Servicios y procesos (multiproceso / multihilo)** (`PSP`) | Varios bucles de simulación concurrentes, uno por sala, con sincronización, control de tick rate y backpressure: el PSP más exigente y el más demostrable de la lista. |
+| ~ **Sistemas de gestión empresarial (ERP-CRM)** (`SGE`) | Opcional: Odoo para cosméticos y pases de temporada, facturación y CRM. |
+
+**Por qué mola**
+
+- Es el proyecto 'juego' por excelencia: si te va el netcode, este es tu sitio.
+- El panel de administración con métricas en vivo defiende SI y DI de un tirón.
+- La progresión persistente te da base de datos y economía real.
+
+**Riesgos y cómo mitigarlos**
+
+- Es el mayor riesgo de la lista: fija el MVP en 2 jugadores, 20 Hz y un solo nivel.
+- Sin bots de prueba no puedes demostrar carga ni concurrencia: hazlos desde el principio.
+- Latencia en la defensa: ten el servidor en local y un replay grabado como plan B.
+
+**Alcance por fases (corta aquí si te falta tiempo)**
+
+| Fase | Entregable |
+|------|------------|
+| MVP | Bucle de simulación en servidor; 1 nivel y 2 jugadores; Predicción e interpolación; HUD y lobby |
+| Fase 2 | Oleadas y progresión; Salas privadas; Panel de administración en vivo; Bots de carga |
+| Fase 3 | Ranking semanal; App companion; Cosméticos y tienda en Odoo |
+
+---
+
+### 4.8 🌍 GeoSprint — Captura territorial por GPS (móvil + mapa web en vivo)
+
+*El juego vive en tu bolsillo; el navegador es el mapa que se pinta en directo.*
+
+| | |
+|---|---|
+| Dificultad | ●●●●○ (4/5) |
+| Esfuerzo estimado | 130-170 h |
+| Bloques cubiertos | 10/10 |
+| Etiquetas | móvil, GPS, mapas, concurrencia, navegador |
+
+**De qué va.** Juego de captura territorial por GPS: la app Android es el cliente principal (mapa, localización en segundo plano, captura de zonas, cámara/AR opcional) y el navegador muestra el mapa global en vivo consumiendo el mismo backend. El servidor ingesta posiciones, resuelve capturas concurrentes sobre la misma zona con transacciones y bloqueos, aplica geocercas y lleva las temporadas por barrios. El ERP-CRM gestiona patrocinios locales y su facturación.
+
+**Arquitectura (de un vistazo)**
+
+- App Android: Fused Location en servicio en primer plano, mapas, captura de zonas y cola de acciones offline.
+- Servidor: ingesta de posiciones por WebSocket/HTTP, resolución concurrente de capturas (lock por zona + transacción), temporadas.
+- Cliente web: mapa global en vivo (Leaflet/MapLibre) y panel de administración de zonas.
+- BD espacial (PostGIS) y series de posiciones con retención.
+- Simulador de rutas GPX para poder demostrar el juego sin salir del aula.
+
+**Stack sugerido**
+
+| Pieza | Tecnología |
+|-------|------------|
+| Móvil | Kotlin + Google Maps / MapLibre + Fused Location + Room |
+| Cliente web | Vue 3 + MapLibre/Leaflet |
+| Servidor | Spring Boot o Node con WebSockets |
+| Datos | PostgreSQL + PostGIS |
+| ERP | Odoo Community (Ventas, Facturación, CRM) |
+| Infra | Linux + Docker + Nginx + simulador GPX |
+
+**Cómo cubre cada RA**
+
+| Bloque | Cómo lo justificas |
+|--------|--------------------|
+| ✔ **Configuración y explotación de sistemas** (`SI`) | Servidor Linux, Docker, Nginx con TLS, copias y monitorización. |
+| ✔ **Seguridad en sistemas, servicios y aplicaciones** (`SI-RA6`) | Detección básica de GPS falso (saltos imposibles, velocidad irreal), JWT, privacidad de la ubicación (RGPD) y auditoría. |
+| ✔ **Gestión de bases de datos** (`BD`) | PostGIS con datos espaciales, integridad de capturas, transacciones y control de concurrencia por zona; copias y retención. |
+| ✔ **Gestión de entornos de desarrollo** (`ED`) | CI, pruebas de geocercas y de resolución de capturas, entornos y empaquetado de la app. |
+| ✔ **Acceso a datos** (`AD`) | Consultas espaciales, ORM, cliente del ERP y exportación de datos de temporada. |
+| ✔ **Contenidos multimedia** (`PMDM·M`) | Tiles de mapa, marcadores animados, captura con cámara y generación de imágenes de cierre de temporada. |
+| ✔ **Dispositivos móviles** (`PMDM·MOV`) | El rey del RA de móviles: localización continua en segundo plano, mapas, cámara, notificaciones, permisos y sincronización offline de acciones. |
+| ✔ **Desarrollo de interfaces** (`DI`) | Mapa global en vivo con capas, filtros y leyenda (componente propio), más el panel de administración de zonas y sus estadísticas. |
+| ✔ **Servicios y procesos (multiproceso / multihilo)** (`PSP`) | Ingesta concurrente de posiciones, workers de resolución de capturas con bloqueo por zona y temporizadores de temporada: condiciones de carrera reales con impacto en el juego. |
+| ✔ **Sistemas de gestión empresarial (ERP-CRM)** (`SGE`) | Odoo para patrocinadores locales (comercios que patrocinan zonas), contratos, facturación y CRM. |
+
+**Por qué mola**
+
+- Es el único donde el móvil es el protagonista y el navegador es el marcador global.
+- Muy visual en la defensa: el mapa cambia de color en directo mientras juegas.
+- El conflicto de dos capturas simultáneas es un problema de BD y PSP perfecto de explicar.
+
+**Riesgos y cómo mitigarlos**
+
+- Para probarlo de verdad hay que salir a la calle: haz un simulador de rutas GPX para la demo.
+- Batería y permisos de ubicación en segundo plano: documéntalo como decisión de diseño.
+- ARCore añade mucho riesgo: déjalo para la fase 3 o descártalo sin pena.
+
+**Alcance por fases (corta aquí si te falta tiempo)**
+
+| Fase | Entregable |
+|------|------------|
+| MVP | App con mapa y posición; Zonas y captura; Mapa web en vivo; Ranking |
+| Fase 2 | Resolución concurrente de capturas; Geocercas y temporadas; Modo offline; Simulador GPX |
+| Fase 3 | Equipos y ligas; Patrocinios en Odoo; Cámara/AR |
+
+## 5. Otras ideas (por si cambias de rumbo)
+
+No son juegos, pero están aquí por si en algún momento te replanteas el enfoque y quieres comparar.
+
+---
+
+### 5.1 🎥 SentinelVIS — Tu propio NVR de videovigilancia IP
 
 *Un servidor multihilo que vigila N cámaras a la vez, entiende lo que ve y te avisa al móvil.*
 
@@ -166,7 +783,7 @@ Donde veas `~` o `–`, apunta en la memoria por qué no aplica o cómo lo cubre
 
 ---
 
-### 4.2 📦 LogiScan — Almacén con PDA, códigos de barras y RFID
+### 5.2 📦 LogiScan — Almacén con PDA, códigos de barras y RFID
 
 *El RA dice literalmente 'teléfonos, PDA y otros dispositivos móviles': aquí la PDA es la protagonista.*
 
@@ -236,7 +853,7 @@ Donde veas `~` o `–`, apunta en la memoria por qué no aplica o cómo lo cubre
 
 ---
 
-### 4.3 🏋️ GymCore — ERP-CRM de gimnasio con app de socio y multimedia
+### 5.3 🏋️ GymCore — ERP-CRM de gimnasio con app de socio y multimedia
 
 *Reservas, acceso por QR, rutinas en vídeo y cuotas facturadas desde el ERP: el pack completo.*
 
@@ -305,7 +922,7 @@ Donde veas `~` o `–`, apunta en la memoria por qué no aplica o cómo lo cubre
 
 ---
 
-### 4.4 🛡️ NetSentinel — Monitorización de red y mini-SOC
+### 5.4 🛡️ NetSentinel — Monitorización de red y mini-SOC
 
 *Descubre los equipos de la red, vigílalos a la vez y recibe la alerta antes de que caiga el servicio.*
 
@@ -374,7 +991,7 @@ Donde veas `~` o `–`, apunta en la memoria por qué no aplica o cómo lo cubre
 
 ---
 
-### 4.5 🍿 StreamHub — Servidor multimedia y streaming (estilo Plex propio)
+### 5.5 🍿 StreamHub — Servidor multimedia y streaming (estilo Plex propio)
 
 *Transcodifica bajo demanda, lleva el catálogo en la BD y sigue viendo la peli en el móvil donde la dejaste.*
 
@@ -443,7 +1060,7 @@ Donde veas `~` o `–`, apunta en la memoria por qué no aplica o cómo lo cubre
 
 ---
 
-### 4.6 🚚 FleetTrack — Flota y reparto con seguimiento GPS en vivo
+### 5.6 🚚 FleetTrack — Flota y reparto con seguimiento GPS en vivo
 
 *Ves los vehículos moverse en el mapa y la prueba de entrega llega con foto, firma y coordenadas.*
 
@@ -512,7 +1129,7 @@ Donde veas `~` o `–`, apunta en la memoria por qué no aplica o cómo lo cubre
 
 ---
 
-### 4.7 🎫 HelpDesk Pro — Gestión de incidencias con SLA y app de técnico
+### 5.7 🎫 HelpDesk Pro — Gestión de incidencias con SLA y app de técnico
 
 *Tickets con SLA, técnicos en campo y facturación de horas: el clásico, pero bien hecho.*
 
@@ -581,7 +1198,7 @@ Donde veas `~` o `–`, apunta en la memoria por qué no aplica o cómo lo cubre
 
 ---
 
-### 4.8 📄 DocuFlow — Digitalización certificada y gestor documental con OCR
+### 5.8 📄 DocuFlow — Digitalización certificada y gestor documental con OCR
 
 *Escaneas, el OCR indexa solo y cada documento queda trazado, cifrado y firmado.*
 
@@ -650,7 +1267,7 @@ Donde veas `~` o `–`, apunta en la memoria por qué no aplica o cómo lo cubre
 
 ---
 
-### 4.9 🏠 EcoDomus — Domótica y control de accesos con Raspberry Pi
+### 5.9 🏠 EcoDomus — Domótica y control de accesos con Raspberry Pi
 
 *Luces, sensores, cerradura y cámara: todo orquestado por hilos y controlado desde el móvil.*
 
@@ -720,7 +1337,7 @@ Donde veas `~` o `–`, apunta en la memoria por qué no aplica o cómo lo cubre
 
 ---
 
-### 4.10 🍽️ MesaFácil — Reservas para restaurante o alojamiento rural
+### 5.10 🍽️ MesaFácil — Reservas para restaurante o alojamiento rural
 
 *Concurrencia de verdad: dos clientes, la última mesa, una sola reserva.*
 
@@ -788,22 +1405,31 @@ Donde veas `~` o `–`, apunta en la memoria por qué no aplica o cómo lo cubre
 | Fase 2 | Pagos de señal en sandbox; Check-in QR; Ocupación y previsiones; Integración ERP |
 | Fase 3 | Lista de espera automática; Valoraciones y multimedia; App de camareros |
 
----
-
-## 5. Ideas rápidas (plan B)
-
-Proyectos más pequeños por si tu centro te limita el alcance o vas justo de tiempo.
-
-| Idea | Qué aporta | Bloques que cubre |
-|------|------------|-------------------|
-| **Préstamo de equipos del centro (aulas/material)** | App móvil con escaneo de códigos de barras, escritorio para el conserje y control de incidencias. Pequeño, cerrado y 100% terminable. | `PMDM·MOV`, `AD`, `DI`, `BD` |
-| **Clon de Spotify para el catálogo de audio del ciclo** | Podcasts y audios propios, streaming multihilo, app móvil con reproducción offline y panel de subida. | `PMDM·M`, `PSP`, `PMDM·MOV`, `DI` |
-| **Generador automático de horarios escolares** | Algoritmo con restricciones ejecutado en varios hilos, interfaz para fijar restricciones y exportación a PDF/Excel. | `PSP`, `DI`, `PMDM·M`, `BD` |
-| **Sistema de control de presencia con reconocimiento facial** | Captura con OpenCV, comparación de embeddings, panel de escritorio y justificantes. Ojo con RGPD: datos sintéticos. | `PMDM·M`, `SI-RA6`, `PSP`, `DI` |
-| **Simulador de bolsa con datos en tiempo real** | Ingesta multihilo de datos de mercado, gráficas en vivo, carteras y alertas móviles. Sin dinero real. | `PSP`, `DI`, `PMDM·MOV`, `AD` |
-| **Plataforma de tutorías y seguimiento académico** | Citas, chat multihilo, informes PDF con gráficas y app móvil con recordatorios. Encaja bien con un centro educativo real. | `DI`, `PSP`, `PMDM·MOV`, `PMDM·M` |
-
 ## 6. Recomendación según tu perfil
+
+**→ Si quieres el juego más completo y defendible: RiftDeck — Juego de cartas coleccionable online (TCG)**
+
+Es el que más parece un producto real (mazos, matchmaking, ranking, economía, tienda) y, al ser por turnos, no te vas a estrellar con el netcode. Cubre los 10 bloques y la demo son dos pestañas jugando entre sí. Si tengo que elegir uno por ti, es este.
+
+**→ Si quieres el juego más fácil de defender en la sala: QuizArena — Concurso multijugador en directo**
+
+El tribunal juega con su propio móvil en 30 segundos: es la demo más agradecida que existe y la más barata de desarrollar. El riesgo es que parezca 'un Kahoot', así que apóyate en el modo torneo, los informes y las licencias en el ERP.
+
+**→ Si quieres lucirte en PSP (multihilo): HexArena — Estrategia por turnos con IA que piensa en paralelo**
+
+La IA buscando jugadas en un pool de hilos, con una gráfica de speed-up en la memoria, es la demostración de multihilo más limpia y medible de toda la lista. Sin arte complejo y con modo asíncrono para la app móvil.
+
+**→ Si quieres el juego más espectacular: Escape360 — Escape room cooperativo en 3D en el navegador**
+
+Un escape room 3D cooperativo en el navegador impresiona en pantalla grande, y el editor de salas te salva el RA de interfaces. Es el más arriesgado: solo si tienes margen de tiempo y te apetece pelearte con el 3D.
+
+**→ Si te mola de verdad el multijugador en tiempo real: PixelRaid — Arcade cooperativo en tiempo real (servidor autoritativo)**
+
+Servidor autoritativo, snapshots, predicción e interpolación: netcode de verdad. Es el proyecto más difícil y el que más puede lucir... o el que más rápido se desborda. Solo con bots de prueba desde el día uno.
+
+**→ Si quieres que el móvil pese en el proyecto: GeoSprint — Captura territorial por GPS (móvil + mapa web en vivo)**
+
+Aquí la app Android es el cliente principal (GPS, mapas, segundo plano, modo offline) y el navegador es el mapa global en vivo. Es el juego que mejor encaja con el RA de dispositivos móviles.
 
 **→ Si quieres el proyecto más completo y 'molón': SentinelVIS — Tu propio NVR de videovigilancia IP**
 
@@ -825,7 +1451,23 @@ Es el más espectacular y el que mejor justifica seguridad y sistemas. Solo si t
 
 Contexto de negocio que cualquiera entiende en 30 segundos y que te permite lucirte explicando decisiones. Menos riesgo técnico, más storytelling.
 
-## 7. Checklist de elección
+## 7. Ideas rápidas (plan B)
+
+Proyectos más pequeños por si tu centro te limita el alcance o vas justo de tiempo.
+
+| Tipo | Idea | Qué aporta | Bloques que cubre |
+|:----:|------|------------|-------------------|
+| 🎮 | **Ajedrez online multijugador con ELO** | Tablero en canvas + WebSocket, salas, ELO y chat. Fácil de acotar, pero muy visto: añade variante propia o torneos. | `DI`, `PSP`, `BD`, `AD` |
+| 🎮 | **Roguelike de navegador con ranking semanal** | Una sola mecánica bien pulida, semillas compartidas y tabla de clasificación. Puro Phaser 3 + servidor ligero. | `PMDM·M`, `DI`, `PSP`, `BD` |
+| 🎮 | **Tower defense cooperativo por oleadas** | Dos jugadores colocan torres y el servidor simula las oleadas. Menos netcode que un shooter y muy vistoso. | `PSP`, `DI`, `PMDM·M`, `BD` |
+| 💼 | **Préstamo de equipos del centro (aulas/material)** | App móvil con escaneo de códigos de barras, escritorio para el conserje y control de incidencias. Pequeño, cerrado y 100% terminable. | `PMDM·MOV`, `AD`, `DI`, `BD` |
+| 💼 | **Clon de Spotify para el catálogo de audio del ciclo** | Podcasts y audios propios, streaming multihilo, app móvil con reproducción offline y panel de subida. | `PMDM·M`, `PSP`, `PMDM·MOV`, `DI` |
+| 💼 | **Generador automático de horarios escolares** | Algoritmo con restricciones ejecutado en varios hilos, interfaz para fijar restricciones y exportación a PDF/Excel. | `PSP`, `DI`, `PMDM·M`, `BD` |
+| 💼 | **Sistema de control de presencia con reconocimiento facial** | Captura con OpenCV, comparación de embeddings, panel de escritorio y justificantes. Ojo con RGPD: datos sintéticos. | `PMDM·M`, `SI-RA6`, `PSP`, `DI` |
+| 💼 | **Simulador de bolsa con datos en tiempo real** | Ingesta multihilo de datos de mercado, gráficas en vivo, carteras y alertas móviles. Sin dinero real. | `PSP`, `DI`, `PMDM·MOV`, `AD` |
+| 💼 | **Plataforma de tutorías y seguimiento académico** | Citas, chat multihilo, informes PDF con gráficas y app móvil con recordatorios. Encaja bien con un centro educativo real. | `DI`, `PSP`, `PMDM·MOV`, `PMDM·M` |
+
+## 8. Checklist de elección
 
 Antes de cerrar la idea, responde honestamente:
 
@@ -837,7 +1479,7 @@ Antes de cerrar la idea, responde honestamente:
 6. ¿Puedes generar datos de prueba creíbles sin depender de terceros?
 7. ¿Te apetece de verdad? Vas a echarle muchas horas.
 
-## 8. Estructura propuesta de la memoria
+## 9. Estructura propuesta de la memoria
 
 1. Introducción: contexto, problema, motivación y por qué este proyecto (aquí vendes el 'chulo').
 2. Análisis: estudio de alternativas existentes, requisitos funcionales y no funcionales, casos de uso, actores, prototipos de interfaz.
@@ -848,7 +1490,7 @@ Antes de cerrar la idea, responde honestamente:
 7. Conclusiones y líneas futuras.
 8. Anexos: manual de usuario (escritorio y móvil), manual de administración/instalación, código fuente (enlace al repositorio), diccionario de datos, guion de la demo y capturas.
 
-## 9. Trampas clásicas
+## 10. Trampas clásicas
 
 - Un CRUD con login: no llega, por mucho que le pongas gráficas.
 - Depender de una API externa que puede caerse o cambiar el día de la defensa: ten siempre datos en local.
@@ -860,4 +1502,4 @@ Antes de cerrar la idea, responde honestamente:
 ---
 
 ¿Quieres que desarrolle una de estas ideas en profundidad (análisis de requisitos, modelo de datos, 
-arquitectura y planificación)? Dime cuál y la convierto en el documento base del proyecto.
+arquitectura, protocolo de red y planificación)? Dime cuál y la convierto en el documento base del proyecto.
